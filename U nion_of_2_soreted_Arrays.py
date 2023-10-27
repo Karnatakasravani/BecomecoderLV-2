@@ -1,0 +1,7 @@
+n=int(input())
+m=int(input())
+A=map(int,input().split())
+B=map(int,input().split())
+A=set(A)
+B=set(B)
+print(*(A.union(B)))
